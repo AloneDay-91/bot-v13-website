@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+        body {
+            font-family: "Poppins", sans-serif;
+            height: 100%;
+            background-color: #212529;
+        }
+
+        /* Position text in the middle */
+        .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+        /* Style the <hr> element */
+        hr {
+        margin: auto;
+        width: 40%;
+        }
+
+        .bdp {
+            text-align: center;
+            line-height: 7px;
+        }
+
+        p.text-f {
+            color: aliceblue;
+        }
+
+        a.mail {
+            color: aliceblue;
+            padding-bottom: 20px;
+        }
+
+        a.mail:hover {
+            color: #f2be2e;
+        }
+
+        i.fa-solid.fa-heart {
+            color: #f60000;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 90vh;
+        }
+
+        header,
+        footer {
+            flex-shrink: 0;
+            }
+
+        main {
+            flex-grow: 0.98;
+        }
+
+        button.light-dark {
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            border: none;
+            text-align: center;
+            background-color: transparent;
+            margin-left: auto;
+            margin-right: auto;
+            outline: none;
+            margin-top: 15px;
+            margin-right: 1630px;
+        }
+
+        i.fa-solid.fa-moon {
+            font-size: 40px;
+            color: #fff;
+        }
+        
+        .light-mode {
+            background-color: #fff;
+            color: #000;
+        }
+
+        button.login {
+            width: 150px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: #3f444e;
+            border: none;
+            margin-top: 15px;
+            outline: none;
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+
+        }
+
+         button.login:hover {
+            opacity: 0.5;
+            transition-duration: 0.3s;
+            text-decoration: underline;
+        }
+
+        header.hdp {
+            text-align: left;
+        }
+
+        ul.head {
+            list-style: none;
+            display: flex;
+        }
+
+        i.fa-solid.fa-circle {
+            color: green;
+        }
