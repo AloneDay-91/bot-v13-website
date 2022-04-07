@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
         body {
             font-family: "Poppins", sans-serif;
-            height: 100%;
+            height:auto;
             background-color: #212529;
         }
 
@@ -68,7 +68,12 @@
             margin-right: auto;
             outline: none;
             margin-top: 15px;
-            margin-right: 1630px;
+        }
+
+        button.light-dark:hover {
+            opacity: 0.5;
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
         }
 
         i.fa-solid.fa-moon {
@@ -92,13 +97,15 @@
             color: #fff;
             text-align: center;
             font-size: 16px;
-
+            margin-left: 1630px;
         }
 
          button.login:hover {
             opacity: 0.5;
             transition-duration: 0.3s;
             text-decoration: underline;
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
         }
 
         header.hdp {
@@ -112,4 +119,71 @@
 
         i.fa-solid.fa-circle {
             color: green;
+        }
+
+        .linkcon {
+            margin-right: 7px;
+            font-size: 17px;
+            text-align: center;
+        }
+
+        .compteur {
+            margin-right: 7px;
+            font-size: 17px;
+            text-align: center;
+        }
+
+        button.btnlst1 {
+            width: 150px; 
+            border: none;
+            height: 40px; 
+            border-radius: 7px;
+            background-color: #fbd38d;
+            outline: none;
+        }
+
+        button.btnlst2 {
+            width: 150px;
+            margin-left: 10px; 
+            border: none;
+            height: 40px;
+            border-radius: 7px;
+            background-color: #9ae6b4;
+            outline: none;
+        }
+
+        button.btnlst3 {
+            width: 150px;
+            margin-left: 10px; 
+            border: none;
+            height: 40px;
+            border-radius: 7px;
+            background-color: #90cdf4;
+            outline: none;
+        }
+
+        button.btnlst1:hover {
+            background-color: #f6ad55;
+            transition-duration: 0.4s;
+            transition: .3s ease-in-out;
+            transform: scale(1.1);
+        }
+
+        button.btnlst2:hover {
+            background-color: #68d391;
+            transition-duration: 0.4s;
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
+        }
+        button.btnlst3:hover {
+            background-color: #385b79;
+            transition-duration: 0.4s;
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
+        }
+
+        h1.title {
+            color: #fff;
+            font-size: 65px;
+            font-family: "Poppins";
         }
